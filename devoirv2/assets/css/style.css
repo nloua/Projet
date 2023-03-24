@@ -142,9 +142,10 @@ body{
 /* small devices */
 @media screen and (max-width:767.98px) {
    .navbar__links {
-        display: flex;
+        overflow:hidden;
+        display:flex;
         flex-direction:column;
-        width: 0;
+        width:0;
         height: calc(100vh- 65px);
         position: absolute;
         top: 65px;
